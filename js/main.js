@@ -14,6 +14,18 @@
   var main=$('#dl-main'),back=$('#dl-back'),msg=$('#dl-msg');
   function setLink(a,u){if(!a)return;if(u){a.href=u;a.rel='noopener noreferrer';a.removeAttribute('aria-disabled')}else{a.removeAttribute('href');a.setAttribute('aria-disabled','true')}}
   setLink(main,C.primaryUrl);setLink(back,C.backupUrl);
+  [main,back].forEach(function(a){
+    if(!a)return;
+    a.addEventListener('click',function(){
+      if(typeof window.gtag === 'function'){
+        window.gtag('event','apk_download_click',{
+          download_method:a.id === 'dl-main' ? 'primary' : 'backup',
+          link_url:a.href
+        });
+      }
+    });
+  });
+
   if(back&&!C.backupUrl)back.hidden=true;
   if(msg){
     if(!C.primaryUrl&&!C.backupUrl){msg.hidden=false;msg.textContent='رابط التنزيل غير مفعّل بعد. سنعلن عن توفر التطبيق عبر قنوات سوقنا الرسمية.'}
