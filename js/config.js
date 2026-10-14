@@ -1,15 +1,15 @@
-/* ملف الإعدادات الوحيد: عدّل القيم هنا فقط، دون لمس صفحات الموقع. */
+/* إعدادات موقع سوقنا */
 window.SOUQNA_CONFIG = {
   appName: "Souqna | سوقنا",
-  version: "1.0.0",          // رقم الإصدار
-  apkSize: "",               // مثال: "24 MB" (اتركه فارغًا لإخفائه)
-  releaseDate: "",           // مثال: "2026-10-11" (اختياري)
-  primaryUrl: "",            // رابط التنزيل الأساسي (مثلاً Google Drive بصيغة تنزيل مباشر)
-  backupUrl: "",             // رابط التنزيل الاحتياطي المستقل
-  googlePlayUrl: "",         // اتركه فارغًا حتى يُنشر التطبيق على Google Play
-  deepLinkScheme: "",        // للمستقبل: مثال "souqna://"
-  contactEmail: "",          // بريد التواصل (يظهر في التذييل إن وُجد)
-  contactTelegram: "",       // رابط تيليجرام (اختياري)
-  contactFacebook: "",       // رابط فيسبوك (اختياري)
-  siteUrl: ""                // رابط الموقع الكامل بعد النشر (للمشاركة)
+  version: "0.1.0",
+  apkSize: "57.09 MB",
+  releaseDate: "2026-10-14",
+  primaryUrl: "https://drive.google.com/uc?export=download&id=16YS0EKLFU8hPEQO732u_PFDM-a3fJF2y",
+  backupUrl: "",
+  googlePlayUrl: "",
+  deepLinkScheme: "",
+  contactEmail: "",
+  contactTelegram: "",
+  contactFacebook: "",
+  siteUrl: "https://mgtbaagzaa-crypto.github.io/souqna-website/"
 };
