@@ -4,7 +4,7 @@ window.SOUQNA_CONFIG = {
   version: "0.1.0",
   apkSize: "57.09 MB",
   releaseDate: "2026-10-14",
-  primaryUrl: "https://github.com/mgtbaagzaa-crypto/Souqna000/releases/latest/download/app-release.apk",
+  primaryUrl: "https://github.com/mgtbaagzaa-crypto/Souqna000/releases/download/souqna-build-38571617507-1/app-release.apk",
   backupUrl: "",
   googlePlayUrl: "",
   deepLinkScheme: "",
